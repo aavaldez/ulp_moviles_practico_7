@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/nav_ubicacion"
         android:name="com.a2valdez.ulp_moviles_practico_7.ui.ubicacion.UbicacionFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_ubicacion"
         tools:layout="@layout/fragment_ubicacion" />
 
     <fragment
         android:id="@+id/nav_mimusica"
         android:name="com.a2valdez.ulp_moviles_practico_7.ui.mimusica.MiMusicaFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_mimusica"
         tools:layout="@layout/fragment_mi_musica" />
 
     <fragment
         android:id="@+id/nav_salir"
         android:name="com.a2valdez.ulp_moviles_practico_7.ui.salir.SalirFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_salir"
         tools:layout="@layout/fragment_salir" />
 </navigation>
